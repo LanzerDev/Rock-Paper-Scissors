@@ -1,0 +1,81 @@
+:root {
+    --azulClaro: #65A2FC,
+    --azulFuerte: #6175F2,
+    --verdesillo: #65F2FC,
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #65A2FC;
+    font-family: 'Assistant', sans-serif;
+}
+h1 {
+    font-family: 'Assistant', sans-serif;
+}
+p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.game-info{
+    font-size: 1.5rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.user-gamebar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    width: auto;
+    border: solid 1px;
+    background-color: transparent;
+}
+img {
+    width: 200px;
+}
+
+@media (max-width: 700px){
+    img {
+        width: 150px;
+    }
+}
+@media (max-width: 492px){
+    img {
+        width: 100px;
+    }
+}
+@media (max-width: 340px){
+    h1{
+        font-size: 1.5rem;
+    }
+    img {
+        width: 70px;
+    }
+}
+.vs {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.pc-img {
+    width: 100px;
+    transform: scaleX(-1);
+    
+}
+.user-img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.shakeU {
+    transform: rotate(30deg);
+    transition: 0.3s;
+}
+.shakeP {
+    transform: rotate(-30deg) scaleX(-1);
+    transition: 0.3s;
+}

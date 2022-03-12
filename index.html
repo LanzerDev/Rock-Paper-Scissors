@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <!--Titulo-->
+    <div class="container">
+        <h1 class="titulo">
+            Rock Paper Scissors
+        </h1>
+        
+    </div>
+    <div class="container">
+        <p>Click to play!</p>
+    </div>
+    <!--Botones de usuario-->
+    <div class="user-gamebar">
+        <button class="piedra">
+            <img src="./assets/rock.svg" alt="" srcset="">
+        <button class="papel">
+            <img src="./assets/paper.svg" alt="" srcset="">
+        </button>
+        <button class="tijera">
+            <img src="./assets/scissors.svg" alt="" srcset="">
+        </button>
+    </div>
+    <!--Usuario vs Computadora-->
+    <div class="container vs">
+        
+        <p class="game-info">you</p>   
+        <img class="user-img" src="./assets/rock.svg" alt="" srcset="">
+        <img class="pc-img" src="./assets/rock.svg" alt="" srcset=""> 
+        <p class="game-info">pc</p>
+    </div>
+    <!--mensaje-->
+    <div class="container">
+        <p class="win-message">Good Luck!</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
