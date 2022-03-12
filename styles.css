@@ -24,11 +24,7 @@ p {
     display: flex;
     justify-content: center;
 }
-.container-header{
-    display: flex;
-    justify-content: center;
-    background-color: #f5a43a;
-}
+
 .user-gamebar{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,7 +93,8 @@ img {
     .grid-el-6 { 
         grid-area: 2 / 4 / 3 / 5;
         margin-top: 0;
-        justify-self: center; }
+        justify-self: center;
+     }
 
 
 
@@ -119,6 +116,7 @@ img {
     transform: rotate(-30deg) scaleX(-1);
     transition: 0.2s;
 }
+
 .win-message{
     margin: 0;
 }
